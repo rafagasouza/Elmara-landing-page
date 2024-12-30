@@ -1,0 +1,76 @@
+.logo {
+  height: 10rem;
+  margin-bottom: 1.3rem;
+}
+
+.profissional{
+  height: 30rem;
+}
+
+.texts{
+  width: 35rem;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+span{
+  color: #d4a520;
+}
+
+p{
+  text-align: justify;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  background: linear-gradient(to left, rgba(37, 11, 109, 0.8), rgb(29, 30, 87, 1)),
+  url('../assets/background.jpg') no-repeat center center;
+  background-size: cover;
+  gap: 5rem;
+}
+
+h1{
+  font-size: 2.7rem;  
+  margin-bottom: 1rem;
+}
+
+@media(max-width: 425px){
+  .banner{
+    flex-direction: column;
+    width: 100vw;
+    gap: 3.8rem;
+  }
+
+  .logo{
+    align-self: center;
+    height: 3rem;
+    margin-top: 2rem;
+  }
+
+  .profissional{
+    height: 11.5rem;
+  }
+
+  .texts{
+    justify-content: center;
+    width: 80vw;
+  }
+  
+  h1{
+    font-size: 1.5em;
+  }
+
+  p{
+    text-align: start;
+    font-size: 0.7rem;
+  }
+}

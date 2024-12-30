@@ -1,0 +1,27 @@
+.describe-services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.services-container{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 2.5rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+@media(max-width: 768px){
+  .services-container{
+    grid-template-columns: 1fr;
+  }
+}

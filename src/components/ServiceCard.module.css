@@ -1,0 +1,39 @@
+.card {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  min-height: 50vh;
+  width: 22rem;
+  padding: 1rem;
+
+  background-color: rgb(37, 11, 109);
+  border-left: 3px solid #d4a520;
+  
+  color: white;
+  
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+  
+  gap: 1rem;
+}
+
+.title{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #d4a520;
+}
+
+.description{
+  text-align: center;  
+  font-weight: 200;
+}
+
+@media(max-width: 425px){
+  .card{
+    min-height: 50vh;
+    width: 20rem;
+   
+  }
+}
